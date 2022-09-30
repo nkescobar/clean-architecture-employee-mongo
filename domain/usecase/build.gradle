@@ -1,0 +1,8 @@
+
+dependencies {
+    implementation project(":domain-model")
+    implementation project(":domain-service")
+    implementation "org.springframework:spring-context:${springFrameworkVersion}"
+}
+
+bootJar { enabled = false}

@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: employee
+  devtools:
+    add-properties: true
+  data:
+    mongodb:
+      database: employee_db
+      uri: mongodb+srv://admin:adminadmin@cluster0.n9nyinu.mongodb.net/?retryWrites=true&w=majority
